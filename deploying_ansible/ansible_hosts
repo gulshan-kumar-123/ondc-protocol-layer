@@ -1,0 +1,26 @@
+[testing]
+43.205.229.21
+
+[stage]
+13.234.78.70
+
+[preprod]
+43.205.208.46
+
+[legacy]
+52.66.197.85
+
+[prod]
+52.66.207.19
+
+[dev-internal]
+ondc-ref-app-buyer-dev-internal
+
+[defaults]
+[testing:vars]
+[stage:vars]
+[preprod:vars]
+[legacy:vars]
+[prod:vars]
+ansible_ssh_private_key_file = /Users/navdeepagarwal/.ondc/ondc-prod-prod-ondc-ec2-key-pair-ssh-key
+ansible_python_interpreter = /usr/bin/python3
